@@ -1,0 +1,26 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "prep": "node preflight-generator.js",
+    "dev": "npm run prep && vite",
+    "build": "npm run prep && vite build"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.13.0",
+    "@warp-ds/uno": "^0.0.13",
+    "lz-string": "^1.4.4",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@itsy/okay": "^0.0.2",
+    "@unocss/core": "^0.50.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@warp-ds/preset-docs": "^0.0.9",
+    "lightningcss": "^1.19.0",
+    "unocss": "^0.50.1",
+    "vite": "^4.1.0"
+  }
+}
