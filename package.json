@@ -10,17 +10,17 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
-    "@warp-ds/uno": "^0.0.13",
-    "lz-string": "^1.4.4",
-    "vue": "^3.2.45"
+    "@warp-ds/uno": "^0.0.15",
+    "lz-string": "^1.5.0",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@itsy/okay": "^0.0.2",
-    "@unocss/core": "^0.50.1",
+    "@unocss/core": "^0.50.4",
     "@vitejs/plugin-vue": "^4.0.0",
     "@warp-ds/preset-docs": "^0.0.9",
     "lightningcss": "^1.19.0",
-    "unocss": "^0.50.1",
-    "vite": "^4.1.0"
+    "unocss": "^0.50.4",
+    "vite": "^4.1.4"
   }
 }
