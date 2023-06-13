@@ -6,7 +6,7 @@ import { formatCSS } from '@itsy/okay'
 
 const uno = createGenerator({
   presets: [
-    presetWarp(),
+    presetWarp({ skipPreflight: true }),
     presetDocs()
   ]
 })
