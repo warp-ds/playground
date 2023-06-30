@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
-    "@warp-ds/uno": "1.0.0-alpha.51",
+    "@warp-ds/uno": "1.0.0-alpha.52",
     "lz-string": "^1.5.0",
     "vue": "^3.3.4"
   },
