@@ -11,4 +11,7 @@ export default defineConfig({
       presets: [presetWarp({ usePreflight: true })]
     })
   ],
+  build: {
+    target: 'esnext'
+  }
 })
