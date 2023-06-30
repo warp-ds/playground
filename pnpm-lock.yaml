@@ -9,8 +9,8 @@ dependencies:
     specifier: ^9.13.0
     version: 9.13.0(vue@3.2.47)
   '@warp-ds/uno':
-    specifier: 1.0.0-alpha.36
-    version: 1.0.0-alpha.36
+    specifier: 1.0.0-alpha.51
+    version: 1.0.0-alpha.51
   lz-string:
     specifier: ^1.5.0
     version: 1.5.0
@@ -30,7 +30,7 @@ devDependencies:
     version: 4.1.0(vite@4.2.1)(vue@3.2.47)
   '@warp-ds/preset-docs':
     specifier: ^0.0.11
-    version: 0.0.11(@warp-ds/uno@1.0.0-alpha.36)
+    version: 0.0.11(@warp-ds/uno@1.0.0-alpha.51)
   lightningcss:
     specifier: ^1.19.0
     version: 1.19.0
@@ -427,6 +427,7 @@ packages:
 
   /@unocss/core@0.50.6:
     resolution: {integrity: sha512-WMIp8xr7YSlID2whqfRGLwagp59e6u4ckPACEpoDOW8sTeSPRZm54hxPhuWXD1SQuqcwHPMtM9nzGD8UOnqQxA==}
+    dev: true
 
   /@unocss/core@0.50.8:
     resolution: {integrity: sha512-rWmyeNE0Na8dJPDynLVar0X22qMHFNhO+/F2FZDpG4tubTavXJJo9uvhZr/D381kiWxt+XZ38y6EAD4UMdBqMA==}
@@ -676,19 +677,19 @@ packages:
       - vue
     dev: false
 
-  /@warp-ds/preset-docs@0.0.11(@warp-ds/uno@1.0.0-alpha.36):
+  /@warp-ds/preset-docs@0.0.11(@warp-ds/uno@1.0.0-alpha.51):
     resolution: {integrity: sha512-MslsUVbfQR0t3AUfN9XlSmAMy/fbN9owjD6ZeARen2kEVq/sW+R8t5d2eXoR0H9jEr0ula0efnVv0suDDBqJMw==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.50.6
-      '@warp-ds/uno': 1.0.0-alpha.36
+      '@warp-ds/uno': 1.0.0-alpha.51
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.36:
-    resolution: {integrity: sha512-oHs+3qWxMfhwI6AUD4R0E2l0LzuNVHp9WqOewap/+Gi7mloCIpnDVIVXZWzvj81KkuDdm3rPMTWwBuqTNzSH8g==}
+  /@warp-ds/uno@1.0.0-alpha.51:
+    resolution: {integrity: sha512-yU3Cg4mfIxZxb5IE2MWrCjppKE9YG6Eua0kCfdRld+C34TAnqpkkhhKCOIymRotgSIdEIm8aUONp6uJqpzPeEA==}
     dependencies:
-      '@unocss/core': 0.50.6
+      '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
 
   /anymatch@3.1.3:
