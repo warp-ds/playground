@@ -10,17 +10,17 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
-    "@warp-ds/uno": "1.0.0-alpha.52",
+    "@warp-ds/uno": "1.1.0",
     "lz-string": "^1.5.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@itsy/okay": "^0.0.4",
-    "@unocss/core": "^0.53.4",
+    "@unocss/core": "^0.55.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@warp-ds/preset-docs": "^0.0.11",
     "lightningcss": "^1.21.1",
-    "unocss": "^0.53.4",
+    "unocss": "^0.55.1",
     "vite": "^4.3.9"
   }
 }
