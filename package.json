@@ -9,18 +9,18 @@
     "build": "npm run prep && vite build"
   },
   "dependencies": {
-    "@vueuse/core": "^9.13.0",
-    "@warp-ds/uno": "1.1.0",
+    "@vueuse/core": "^10.9.0",
+    "@warp-ds/uno": "1.12.0",
     "lz-string": "^1.5.0",
-    "vue": "^3.3.4"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
     "@itsy/okay": "^0.0.4",
-    "@unocss/core": "^0.55.1",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@warp-ds/preset-docs": "^0.0.11",
-    "lightningcss": "^1.21.1",
-    "unocss": "^0.55.1",
-    "vite": "^4.3.9"
+    "@unocss/core": "^0.60.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@warp-ds/preset-docs": "^0.0.16",
+    "lightningcss": "^1.24.1",
+    "unocss": "^0.60.2",
+    "vite": "^5.2.11"
   }
 }
